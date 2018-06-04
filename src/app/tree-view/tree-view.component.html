@@ -1,0 +1,8 @@
+<ul *ngFor="let node of nodes" (click)="onExpand($event,node)">
+    <li>
+        <a>{{node.name}}</a>
+        <tree-view [nodes]="node.contacts"
+                   *ngIf="node.isExpanded">
+        </tree-view>
+    </li>
+</ul>

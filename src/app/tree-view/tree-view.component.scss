@@ -1,25 +1,24 @@
+@import "../../styles";
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    font: 200 20px/1.2 Serif;
+  font: 200 20px/1.2 Serif;
 }
 
 li:last-child {
-    border: none;
+  border: none;
 }
 
 li a {
-    text-decoration: none;
-    color: #000;
-    display: block;
+  text-decoration: none;
+  color: $color-black;
+  display: block;
 }
 
 li a:hover {
-    background: #9dcfd4;
+  background: $color-blue;
 }
 
-.active {
-    background-color: #9dcfd4;
-}

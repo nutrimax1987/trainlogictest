@@ -18,7 +18,10 @@ export const contacts = [
         name: 'Family',
         type: 'Group',
         contacts: [{id: 5, name: 'Roni', type: 'Contact'}]
-    }, {id: 8,
+    }, {
+        id: 8,
         name: 'Ori',
-        type: 'Contact'}
+        type: 'Contact'
+    }
 ];
+
