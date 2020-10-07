@@ -1,4 +1,4 @@
-# TrainLogic Test Work
+# TrainLogic Company Test Work on Angular 5.0.0
 
 Author: Maxim Livshitz
 
